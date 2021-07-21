@@ -1,0 +1,75 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+img{
+border-width: 5px; ;
+border-color: black;
+border-style:dotted;
+padding: 20px;
+margin:5px;
+}
+
+a:link{
+color:yellow;
+}
+
+a:visited{
+    color:blue;
+}
+
+.item p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%) ;
+opacity:0;
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover p{
+opacity: 1;
+}
+.item:hover img{
+   opacity: 0.33; 
+}
+
+.menu{
+    margin: 30px;
+}
+.menu a{
+    margin: 20px;
+}
